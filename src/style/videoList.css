@@ -1,0 +1,25 @@
+.videoList{
+    margin-top: 30px;
+    width: 100%;
+    display: flex; /* [1] */
+    flex-direction: column;
+    flex-wrap: nowrap; /* [1] */
+}
+
+.videoListTitle {
+    padding-left: 75px;
+    color: #FFF;
+}
+
+.divPoster {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto; /* [1] */
+    padding: -75px;
+}
+
+.imageVideoList {
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}

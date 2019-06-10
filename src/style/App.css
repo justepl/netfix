@@ -1,0 +1,64 @@
+.app {
+  background: black;
+}
+
+.divImg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titleImg {
+  /*align-self: center;*/
+  padding-left: 75px;
+  color: white;
+}
+
+.posterImg {
+  align-self: center;
+  text-align: center;
+  width: 500px;
+}
+
+.MuiToolbar-root {
+  background: black;
+  color: red;
+}
+
+.root {
+  flex-grow: 1;
+  background-color: black;
+}
+
+.inputInput {
+  width: 100%;
+}
+
+.appBar {
+  background-color: black;
+}
+
+.grow {
+  flex-grow: 1;
+  font-weight: bold;
+}
+
+.menuButton {
+  margin-left: -12px;
+  margin-right: 20px;
+}
+
+.cardDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.VideoList{
+  width: 100%;
+}
+
+.textCurrentMovie {
+  text-align: center;
+  color: white;
+}
